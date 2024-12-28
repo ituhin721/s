@@ -1,3 +1,9 @@
+# Stellar Asset Configuration
+# Configuration for the "Sadiya" asset
+
+[stellar]
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
 [[CURRENCIES]]
 code = "Sadiya"  # Replace with your asset code
 issuer = "GDFLCWAO3IZGDYRQUHU5OIIYGUSEOYFCMLE4EBRTGGXMWB2QK2ZROXWY"  # Replace with your asset's issuing account public key
@@ -5,4 +11,16 @@ status = "active"
 display_decimals = 2
 name = "Sadiya Khanki"  # Replace with your asset name
 desc = "Sadiya is a khanki Magiiiii"  # Replace with a short description
-image = "https://peradox2.netlify.app/logo.png"  # Replace with the copied logo URL
+image = "https://peradox.netlify.app/logo.png"  # Replace with the copied logo URL
+
+[[CURRENCIES]]
+code = "XLM"
+issuer = ""
+status = "active"
+display_decimals = 7
+name = "Lumens"
+desc = "The native asset of the Stellar Network"
+image = "https://peradox.netlify.app/logo.png"
+
+[NETWORKS]
+MAINNET = "Mainnet"
