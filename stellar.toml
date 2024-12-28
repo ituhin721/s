@@ -5,4 +5,4 @@ status = "active"
 display_decimals = 2
 name = "YourAssetName"  # Replace with your asset name
 desc = "Description of your asset"  # Replace with a short description
-image = "https://github.com/ituhin721/stellar-asset/blob/main/logo.png?raw=true"  # Replace with the copied logo URL
+image = "https://raw.githubusercontent.com/ituhin721/stellar-asset/refs/heads/main/logo.png"  # Replace with the copied logo URL
