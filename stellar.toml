@@ -1,0 +1,8 @@
+[[CURRENCIES]]
+code = "YourAssetCode"  # Replace with your asset code
+issuer = "YourIssuerPublicKey"  # Replace with your asset's issuing account public key
+status = "active"
+display_decimals = 2
+name = "YourAssetName"  # Replace with your asset name
+desc = "Description of your asset"  # Replace with a short description
+image = "https://raw.githubusercontent.com/username/stellar-asset/main/logo.png"  # Replace with the copied logo URL
