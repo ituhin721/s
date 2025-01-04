@@ -1,29 +1,30 @@
-# Stellar Asset Configuration
-# Configuration for the "Sadiya" asset
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+VERSION = "0.1.0"
+SIGNING_KEY="GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
+WEB_AUTH_ENDPOINT="https://kbtrading.org/auth"
+KYC_SERVER = "https://kbtrading.org/kyc"
 
-[stellar]
-NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+ACCOUNTS=[
+"GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Crypto Boar"
+ORG_URL="https://kbtrading.org"
+ORG_PHYSICAL_ADDRESS="P.O. Box 2681 Road Town, Tortola BVI"
+ORG_OFFICIAL_EMAIL="support@cryptoboar.org"
+ORG_DESCRIPTION="CBR (Crypto Boar) is a dynamic digital asset symbolizing resilience and strength in the crypto ecosystem."
+
+[[PRINCIPALS]]
+name="Crypto Boar"
+email="support@cryptoboar.org"
 
 [[CURRENCIES]]
-code = "Sadiya"
-issuer = "GDFLCWAO3IZGDYRQUHU5OIIYGUSEOYFCMLE4EBRTGGXMWB2QK2ZROXWY"
-home_domain = "peradox.netlify.app"
-status = "live"
-display_decimals = 2
-name = "Sadiya Khanki"
-desc = "Sadiya is a khanki Magiiiii"
-image = "https://peradox.netlify.app/logo.png"
-
-[[CURRENCIES]]
-code = "XLM"
-issuer = ""
-status = "live"
-display_decimals = 7
-name = "Lumens"
-desc = "The native asset of the Stellar Network"
-image = "https://www.stellar.org/wp-content/uploads/2021/02/Stellar_Logo_Full_RGB-1.png"
-
-
-
-[NETWORKS]
-MAINNET = "Mainnet"
+code="CBR"
+name="Crypto Boar"
+status="live"
+display_decimals=6
+issuer="GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
+anchor_asset_type="crypto"
+desc="CBR (Crypto Boar) is a dynamic digital asset symbolizing resilience and strength in the crypto ecosystem."
+image="https://australiangpstellar.com/agp.png"
