@@ -1,8 +1,8 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 VERSION = "0.1.0"
 SIGNING_KEY="GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
-WEB_AUTH_ENDPOINT="https://kbtrading.org/auth"
-KYC_SERVER = "https://kbtrading.org/kyc"
+WEB_AUTH_ENDPOINT="https://croptoboar.netlify.app/auth"
+KYC_SERVER = "https://croptoboar.netlify.app/kyc"
 
 ACCOUNTS=[
 "GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
@@ -10,7 +10,7 @@ ACCOUNTS=[
 
 [DOCUMENTATION]
 ORG_NAME="Crypto Boar"
-ORG_URL="https://kbtrading.org"
+ORG_URL="https://croptoboar.netlify.app"
 ORG_PHYSICAL_ADDRESS="P.O. Box 2681 Road Town, Tortola BVI"
 ORG_OFFICIAL_EMAIL="support@cryptoboar.org"
 ORG_DESCRIPTION="CBR (Crypto Boar) is a dynamic digital asset symbolizing resilience and strength in the crypto ecosystem."
@@ -27,4 +27,4 @@ display_decimals=6
 issuer="GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
 anchor_asset_type="crypto"
 desc="CBR (Crypto Boar) is a dynamic digital asset symbolizing resilience and strength in the crypto ecosystem."
-image="https://australiangpstellar.com/agp.png"
+image="https://croptoboar.netlify.app/cbr-logo.png"
