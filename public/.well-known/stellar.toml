@@ -1,29 +1,20 @@
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
-VERSION = "0.1.0"
-SIGNING_KEY="GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
-WEB_AUTH_ENDPOINT="https://cbr-stellar.netlify.app/auth"
-KYC_SERVER = "https://cbr-stellar.netlify.app/kyc"
+VERSION="1.0"
 
 ACCOUNTS=[
-"GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
+"GALUJMDY3IWHFFU32MJUGCZ7G6XONWFWDBPQRXP3N2KD3RPPQPXD7WBD",
+"GCGIB6RNPCVLSDDBZHWLH2LV767S6VAJSMWRJTFXRMR3XHYDIIGLFCSR",
 ]
 
 [DOCUMENTATION]
-ORG_NAME="Crypto Boar"
-ORG_URL="https://cbr-stellar.netlify.app"
-ORG_PHYSICAL_ADDRESS="P.O. Box 2681 Road Town, Tortola BVI"
-ORG_OFFICIAL_EMAIL="support@cryptoboar.org"
-ORG_DESCRIPTION="CBR (Crypto Boar) is a dynamic digital asset symbolizing resilience and strength in the crypto ecosystem."
-
-[[PRINCIPALS]]
-name="Crypto Boar"
-email="support@cryptoboar.org"
+ORG_NAME="Stellar (GOOGLE) Prime"
+ORG_URL="https://stellar-prime.netlify.app"
+ORG_LOGO="https://etuvkcx.stripocdn.email/content/guids/CABINET_2b2892b902fc3eb92b74e4ebbdb5762494fbe2b11d1344ad97652c1619f5b613/images/stellar_prime.jpg"
 
 [[CURRENCIES]]
-code="CBR"
-name="Crypto Boar"
+code="GoogleStaking"
+issuer="GALUJMDY3IWHFFU32MJUGCZ7G6XONWFWDBPQRXP3N2KD3RPPQPXD7WBD"
+display_decimals=7
+desc="GoogleStaking ICO is unifying all Google products such as Google Pay, YouTube, Play Store, and Android under a single token, becoming the primary and first Stellar-based channel for exchange and payments globally."
+name="GoogleStaking"
 status="live"
-issuer="GDGEIGHG3YP2IHNKMNLLKZ6MDVHF64QWZIHKLPMPCLEHL67TZUMVUAMQ"
-anchor_asset_type="crypto"
-desc="CBR (Crypto Boar) is a dynamic digital asset symbolizing resilience and strength in the crypto ecosystem."
-image="https://cbr-stellar.netlify.app/cbr-logo.png"
+image="https://etuvkcx.stripocdn.email/content/guids/CABINET_2b2892b902fc3eb92b74e4ebbdb5762494fbe2b11d1344ad97652c1619f5b613/images/googlestaking.jpg"
