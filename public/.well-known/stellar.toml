@@ -11,10 +11,10 @@ ORG_URL="https://stellar-prime.netlify.app"
 ORG_LOGO="https://etuvkcx.stripocdn.email/content/guids/CABINET_2b2892b902fc3eb92b74e4ebbdb5762494fbe2b11d1344ad97652c1619f5b613/images/stellar_prime.jpg"
 
 [[CURRENCIES]]
-code="GoogleStaking"
+code="MetaGoogle"
 issuer="GALUJMDY3IWHFFU32MJUGCZ7G6XONWFWDBPQRXP3N2KD3RPPQPXD7WBD"
 display_decimals=7
-desc="GoogleStaking ICO is unifying all Google products such as Google Pay, YouTube, Play Store, and Android under a single token, becoming the primary and first Stellar-based channel for exchange and payments globally."
-name="GoogleStaking"
+desc="MetaGoogle ICO is unifying all Google products such as Google Pay, YouTube, Play Store, and Android under a single token, becoming the primary and first Stellar-based channel for exchange and payments globally."
+name="MetaGoogle"
 status="live"
-image="https://etuvkcx.stripocdn.email/content/guids/CABINET_2b2892b902fc3eb92b74e4ebbdb5762494fbe2b11d1344ad97652c1619f5b613/images/googlestaking.jpg"
+image="https://etuvkcx.stripocdn.email/content/guids/CABINET_2b2892b902fc3eb92b74e4ebbdb5762494fbe2b11d1344ad97652c1619f5b613/images/metagoogle.jpg"
